@@ -1,0 +1,21 @@
+<% launches.forEach(launch => { %>
+  <li>
+    <div class="card">
+      <h1>
+        <%= launch.shortName %>
+      </h1>
+      <h2>
+        <%= launch.title %>
+      </h2>
+      <p>
+        Launched at <%= launch.time %> on <%= launch.date %>
+      </p>
+      <button onclick="window.location='https://<%= launch.website %>'">
+        Website
+      </button>
+      <p>
+        ID: <%= launch.id %>
+      </p>
+    </div>          
+  </li>
+<% }) %>
