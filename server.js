@@ -4,9 +4,7 @@
 // we've started you off with Express (https://expressjs.com/)
 // but feel free to use whatever libraries or frameworks you'd like through `package.json`.
 const express = require("express");
-const session = require("express-session");
 const app = express();
-let ejs = require('ejs');
 var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 app.set("view engine", "ejs");
 const { URL } = require('url'); // No .Url and with { }
