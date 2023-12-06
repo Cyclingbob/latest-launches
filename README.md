@@ -1,30 +1,7 @@
-# hello-express
+# Latest Launches
 
-A server that serves a webpage, its resources, and some data
+An app that is able to fetch the latest 50 launches from the RNLI (Royal National Lifeboat Institution), which is a charity that uses dedicated lifeboats around Great Britain and Ireland to save lives at sea.
+I originally wrote this app somewhere between 2020 and 2021 using [Glitch](https://glitch.com/) before I learnt how to use virtual private servers to host websites on the internet. Glitch is an alternative to [Repl.it](https://replit.com) allowing you to create and collaberate and host a project for free online during use.
 
-
-## Your Project
-
-On the front-end,
-
-- Edit `views/index.html` to change the content of the webpage
-- `public/client.js` is the javacript that runs when you load the webpage
-- `public/style.css` is the styles for `views/index.html`
-- Drag in `assets`, like images or music, to add them to your project
-
-On the back-end,
-
-- your app starts at `server.js`
-- add frameworks and packages in `package.json`
-- safely store app secrets in `.env` (nobody can see this but you and people you invite)
-
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy.
-
-
-## Made by [Glitch](https://glitch.com/)
-
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
-
-Find out more [about Glitch](https://glitch.com/about).
-
-( ᵔ ᴥ ᵔ )
+# Future Ideas
+I plan to log all the launches for 2024 and create dedicated pages for stations, the boats and hovercraft they make use of.
